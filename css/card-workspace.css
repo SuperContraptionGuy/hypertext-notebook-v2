@@ -1,0 +1,14 @@
+.cards {
+    width: 90%;
+    height: 90%;
+    margin: auto auto;
+    background-color: blue;
+    border: 2px black solid;
+}
+.cards h2 {
+    text-align: left;
+    margin: 5%;
+}
+.cards p {
+    margin: 5%;
+}

@@ -1,0 +1,38 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 7% 93%;
+    margin: 0 ;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-panel {
+    background-color: aqua;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+
+}
+
+.side-panel {
+
+    background-color: brown;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.main-panel {
+    background-color: chartreuse;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 100%;
+    width: 100;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
