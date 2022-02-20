@@ -8,7 +8,7 @@ This project is about creating a better **hypertext**(inter-note links) notebook
 - **Focused**, extensively minimalized interface: focus on the notes, note taking, and navigation, and link creating first and foremost. minimize how much the tool iteself distracts you from reading and writing.
 - Navigation by **Spatial memory** is top priority, with search and tagging close second. (persistant maps(memorizable), visual card previews on hovers, navigation histories, always visible visual signposts(ie breadcrumbs or minimap) (creat links by searching for card titles, list tagged cards)
 - Prioritize UI functions and minimize menus or lists of buttons.  The user is here to look for information, not for tools and functions.
-- Each card is a note: a **complete thoughts** with links, references, and resources noted, but not too long.
+- Each card is a note: a **complete thoughts** with links, references, and resources noted, but not too long ie avoid scrolling to view card contents if at all possible.
 
 
 ## Main features:
