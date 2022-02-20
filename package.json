@@ -1,0 +1,12 @@
+{
+  "name": "HypertextNotebookV2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SuperContraptionGuy/hypertext-notebook-v2.git",
+  "author": "Hudson Kendall <supercontraptionguy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@jlongster/sql.js": "^1.6.7",
+    "absurd-sql": "^0.0.53"
+  }
+}

@@ -26,6 +26,7 @@ This project is about creating a better **hypertext**(inter-note links) notebook
 - Wikipedia/MediaWiki (hypertext linking, quick page generation, templating, version history/change tracking)
 - Notion (visual editing WYSIWYG, project management, calendar, alternate viewing modes: tables/calendars/lists/tiles, tagging system, hypertext referencing)
 - Notability (audio + handwriting syncronization (animations, note based audio scrubbing), efficient file generation/exporting)
+- Tinderbox (hypertext, visual overview of cards, full text search + AI help)
 - OneNote (mixed input methods)
 - Web-browsers (tab based browsing contexts)
 - Window managers (potential for window tiling, parallel information access)
