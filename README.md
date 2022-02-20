@@ -3,9 +3,10 @@
 This project is about creating a better hypertext(inter-note links) notebooking system that supports handwriting, formatted text (markdown/LaTeX/tables/calendars), images and files, and external links.
 
 ## Design Principles:
-- No view/edit dichotomy (you are already editing, fast as writing with a pencil. autosaves everything)
-- Focused, extensively minimalized interface: focus on the notes, note taking, and navigation first and foremost.
-- Navigation and search by Spatial memory is top priority.  
+- No view/edit dichotomy
+- Zero barriers to thinking. Speed of thought navigation, writing, and linking.  you are already editing, fast as writing with a pencil. autosaves everything
+- Focused, extensively minimalized interface: focus on the notes, note taking, and navigation, and link creating first and foremost. minimize how much the tool iteself distracts you from reading and writing.
+- Navigation and search by Spatial memory is top priority. (persistant maps(memorizable), navigation histories, always visible visual signposts(ie breadcrumbs or minimap)
 - Prioritize UI functions and minimize menus or lists of buttons.  The user is here to look for information, not for tools and functions.
 - Each card is a note: a full thought with links, references, and resources noted, but not too long.
 
@@ -19,9 +20,9 @@ This project is about creating a better hypertext(inter-note links) notebooking 
 - Full text search (and handwriting eventually by handwriting recognition and maybe some kind of stroke match searching?)
 
 
-## Inspirations include (Knowledge Base Software)
-- ZettleKasten note-box system
-- Wikipedia/MediWiki (hypertext, quick page generation, templating, version history/change tracking)
-- Notion (visual editing WYSIWYG, project management, calendar, alternate viewing modes: tables/calendars/lists/tiles, tagging system)
-- Notability (audio + handwriting syncronization)
+## Inspirations include (Knowledge Base Software, mindmapping, notetaking)
+- ZettleKasten note-box system (hypertext references, sorted(predictable) card locations)
+- Wikipedia/MediWiki (hypertext linking, quick page generation, templating, version history/change tracking)
+- Notion (visual editing WYSIWYG, project management, calendar, alternate viewing modes: tables/calendars/lists/tiles, tagging system, hypertext referencing)
+- Notability (audio + handwriting syncronization (animations, note based audio scrubbing), efficient file generation/exporting)
 - OneNote (mixed input methods)
