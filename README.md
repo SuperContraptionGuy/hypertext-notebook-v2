@@ -12,8 +12,8 @@ This project is about creating a better **hypertext**(inter-note links) notebook
 
 
 ## Main features:
-- Hyperlinking is the main and most accessable tool for connection.  Ensure many different methods for the user to implement hyperlinking. add links by typing card names or IDs(searchable), or with stylis gestures like line connection drawing->link conversion.  Link to non extant cards possible, with automatic new card generation on link traverse.  Auto backlinking?
-- use with a keyboard(html/markdown/LaTeX/tables/tags/calendars/checklists) and a stylis(handwritting/sketching). Everywhere is a text box and a drawing surface.
+- Hyperlinking is the main and most accessable tool for connection.  Ensure many different methods for the user to implement hyperlinking. add links by typing card names or IDs(searchable), or with stylus gestures like line connection drawing->link conversion.  Link to non extant cards possible, with automatic new card generation on link traverse.  Auto backlinking?
+- use with a keyboard(html/markdown/LaTeX/tables/tags/calendars/checklists) and a stylus(handwritting/sketching). Everywhere is a text box and a drawing surface.
 - multiplexed viewing: view and edit multiple cards at once, including a list of recently accessed notes.
 - connectivity viewing: user customizable and relatively static map (doesn't change the location of existing nodes too much when new nodes are added so user can still find old information by spatial memory)
 - Full **offline** functionality.  Built for offline use, with online backup and cross device realtime syncing when connected.
