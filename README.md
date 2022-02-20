@@ -19,6 +19,7 @@ This project is about creating a better **hypertext**(inter-note links) notebook
 - Full **offline** functionality.  Built for offline use, with online backup and cross device realtime syncing when connected.
 - Full text search (and handwriting eventually by handwriting recognition and maybe some kind of stroke match searching?)
 
+![Whiteboarding session](https://raw.githubusercontent.com/SuperContraptionGuy/hypertext-notebook-v2/main/UI%20and%20SQLite%20tables%20WhiteboardSession.jpg)
 
 ## Inspirations include (Knowledge Base Software, mindmapping, notetaking, web-browsing)
 - ZettleKasten note-box system (hypertext references, sorted(predictable) card locations)
