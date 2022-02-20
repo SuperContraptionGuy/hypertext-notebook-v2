@@ -6,3 +6,7 @@ function testChildCard(number) {
         $('.main-panel').append(CHILD_TEMPALTE)
     }
 }
+
+window.addEventListener('load', (event) => {
+    testChildCard(6)
+})
