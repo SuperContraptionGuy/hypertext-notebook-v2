@@ -8,6 +8,8 @@
 .cards h2 {
     text-align: left;
     margin: 5%;
+    font-weight: 900;
+    font-kerning: auto ;
 }
 .cards p {
     margin: 5%;
