@@ -1,10 +1,12 @@
 .cards {
-    width: 90%;
-    height: 90%;
-    margin: auto auto;
+    width: 95%;
+    height: 95%;
     background-color: #D5DDDF;
     box-shadow: 0 0 5px 2px rgb(155, 155, 155) ;
     border-radius: 6px;
+    padding: 0;
+    margin: auto auto;
+    overflow-y: hidden;
 }
 .cards h2 {
     text-align: left;
@@ -18,4 +20,24 @@
     font-size: 1rem;
     font-weight: 400;
     color: black;
+}
+
+.cards-tiny {
+    width: 65%;
+    height: 150px;
+    background-color: #D5DDDF;
+    box-shadow: 0 0 5px 2px rgb(68, 68, 68) ;
+    border-radius: 6px;
+    padding: 10px;
+    margin: auto auto;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+}
+.cards-tiny-title {
+    font-weight: 800;
+    font-style: italic;
+}
+.cards-tiny-content {
+    margin-top: 5px;
+    font-weight: 300;
 }
