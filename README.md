@@ -20,7 +20,7 @@ This project is about creating a better hypertext(inter-note links) notebooking 
 
 
 ## Inspirations include (Knowledge Base Software)
-- ZettleKasten notebox system
+- ZettleKasten note-box system
 - Wikipedia/MediWiki (hypertext, quick page generation, templating, version history/change tracking)
 - Notion (visual editing WYSIWYG, project management, calendar, alternate viewing modes: tables/calendars/lists/tiles, tagging system)
 - Notability (audio + handwriting syncronization)
