@@ -2,7 +2,7 @@
 
 This project is about creating a better hypertext(inter-note links) notebooking system that supports handwriting, formatted text (markdown/LaTeX/tables/calendars), images and files, and external links.
 
-##Design Principles:
+## Design Principles:
 - No view/edit dichotomy (you are already editing, fast as writing with a pencil. autosaves everything)
 - Focused, extensively minimalized interface: focus on the notes, note taking, and navigation first and foremost.
 - Navigation and search by Spatial memory is top priority.  
