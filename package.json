@@ -1,12 +1,24 @@
 {
   "name": "HypertextNotebookV2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./index.js",
   "repository": "https://github.com/SuperContraptionGuy/hypertext-notebook-v2.git",
   "author": "Hudson Kendall <supercontraptionguy@gmail.com>",
   "license": "MIT",
+  "scripts": {
+	 "serve": "webpack serve"
+  },
+
   "dependencies": {
     "@jlongster/sql.js": "^1.6.7",
-    "absurd-sql": "^0.0.53"
+    "absurd-sql": "^0.0.53",
+    "serve": "^13.0.2"
+  },
+
+  "devDependencies": {
+	  "webpack": "^5.50.0",
+	  "html-webpack-plugin": "^5.3.2",
+	  "webpack-cli": "^4.7.2",
+	  "webpack-dev-server": "^3.11.2"
   }
 }
