@@ -2,10 +2,8 @@ import initSqlJs from '@jlongster/sql.js';
 import { SQLiteFS } from 'absurd-sql';
 import IndexedDBBackend from 'absurd-sql/dist/indexeddb-backend';
 
-
-console.log("I'm finally alive.");
-
-async function run() {
+async function init() {
+	console.log("initializing database...");
   let SQL = await initSqlJs({ locateFile: file => file });
   let sqlFS = new SQLiteFS(SQL.FS, new IndexedDBBackend());
   SQL.register_for_idb(sqlFS);
@@ -27,4 +25,23 @@ async function run() {
   `);
 
    // Your code
+
+	console.log("within the function");
+
+	return db;
 }
+
+function run() {
+	console.log("started worker.");
+
+	let db = init();
+	console.log("called init.");
+
+}
+
+onmessage = function(e) {
+	console.log("got a message: " + e.data);
+	postMessage("this is a reply.");
+}
+
+run();
