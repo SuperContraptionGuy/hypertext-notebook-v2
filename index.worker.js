@@ -26,7 +26,9 @@ async function init() {
 
    // Your code
 
-	console.log("within the function");
+	//console.log("Database initialized.  Ready for Queries");
+	postMessage("Ready for Queries.");
+
 
 	return db;
 }

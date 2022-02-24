@@ -11,16 +11,18 @@ function init() {
 	return worker;
 }
 
-init();
+//init();
 
-let dbworker = init();
 
 // Main code - has access to DOM.  Use dbworker.postMessage(); to send messages to the database, and dbworker.onmessage = function(e) {} to receive messages.
 // more info see https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 //
 
+let dbworker = init();
+
+
 dbworker.onmessage = function(e) {
-	console.log("recieving reply: " + e.data);
+	console.log("recieving reply: " + JSON.stringify(e.data, undefined, 2));
 }
 
 console.log("posting a message...");
